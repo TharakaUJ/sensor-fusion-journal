@@ -14,6 +14,7 @@ public:
         : measurement_uncertainty(measurement_uncertainty),
           process_uncertainty(process_uncertainty),
           predict(predict),
+          predict_uncertainty(predict_uncertainty),
           kalman_gain(0.0),
           prior_estimate(initial_estimate)
     {
